@@ -1,0 +1,12 @@
+// console.log("Hello World")
+const fs = require("fs")
+// fs.mkdirSync("thapa_async")
+// fs.writeFileSync("apple.txt", "this is not an apple \n")
+// fs.appendFileSync("apple.txt", "add banana also in it.")
+const data = fs.readFileSync("apple.txt", "UTF-8")
+console.log(data)
+// fs.renameSync("apple.txt", "banana.txt")
+
+// fs.writeFileSync("apple.txt", "this is an apple \n")
+// fs.unlinkSync("apple.txt")
+// fs.rmdirSync("thapa")

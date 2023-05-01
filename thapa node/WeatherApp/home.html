@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API using Nodejs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #00000046;
+            width: 100%;
+            height: 100vh;
+        }
+        .box{
+            width: 25%;
+            height: 60vh;
+            background-color: rgb(9, 134, 224);
+            color: rgb(0, 0, 0);
+            border-radius: 8 px;
+            box-shadow: 10px 10px 8px rgb(120, 230, 120);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>  
+    <div class="parent">
+        <div class="box">
+            <div class="wave -one"></div>
+            <div class="wave -two"></div>
+            <div class="wave -three"></div>
+    
+            <div id="weathercon">
+                <i class="fas fa-sun" style="color: #eccc68"></i>
+            </div>
+    
+            <div class="info">
+                <h2 class="location"><i class="fas fa-street-view" style="color:#fff"></i>Pune, IN</h2>
+    
+                <p id="date">WED | MAR 15 | 4:53PM</p>
+                <h1 class="temp">26.49&#8451</h1>
+                <h3 class="temp_minmax">Min 20.18&#8451 | Max 29.43&#8451 </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<!-- https://api.openweathermap.org/data/2.5/weather?lat=42.9832406&lon=-81.243372&appid=d3c0e1c43547dd7ef2bdf3c7a0c30a8a
+
+
+http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=d3c0e1c43547dd7ef2bdf3c7a0c30a8a
+
+
+http://api.openweathermap.org/geo/1.0/direct?q=morbi,GJ,+91&limit={limit}&appid=d3c0e1c43547dd7ef2bdf3c7a0c30a8a -->
